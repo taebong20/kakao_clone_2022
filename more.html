@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>More - Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/98/98783.png" /> -->
+      </div>
+      <div class="status-bar__column">
+        <span>15:49</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <!-- <i class="fa-solid fa-battery-three-quarters fa-lg battery"></i> -->
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3103/3103520.png"
+          class="battery"
+        />
+        <!-- <i class="fa-solid fa-bolt-lightning"></i> -->
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/252/252851.png"
+          class="bolt"
+        />
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span class="screen-header__icons__icon">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </span>
+        <span class="screen-header__icons__icon">
+          <i class="fa-solid fa-music fa-lg"></i>
+        </span>
+        <span class="screen-header__icons__icon">
+          <a href="settings.html">
+            <i class="fa-solid fa-gear fa-lg">
+              <span class="screen-header__icon__red-dot"></span>
+            </i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/220px-SpongeBob_SquarePants_character.svg.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Spongebob</h4>
+            <h6 class="user-component__subtitle">
+              +787 666 999
+              <span class="feel_container"
+                ><i class="fa-solid fa-exclamation fa-xs"></i
+              ></span>
+            </h6>
+          </div>
+        </div>
+
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar"></i><span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-hard-drive"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-laugh-beam"></i><span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-brush"></i><span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-money-check-dollar"></i><span>Accounts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-comments"></i><span>Openchat</span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <img
+                src="https://previews.dropbox.com/p/thumb/ABoE8OhxKkdyc2sOvkyTevJj1UWNd102mwPsjYIHM8zJ_smRxo-bQJhN-HzvBT3bwl57yxTkgy8AnWOnbaxa27OMP-as7Nco4QVMind2yNlrgnsN75be4bbgMqHdNdlldCjq8ZEmK13akGHI9TLzFMvw6TQyobSfHJublmr3t6e_eqUg-DTaobIGyiz9One6cOXBgXw3yJprSj6l1VLVLdTzOGPLy4aT5BzA0gwnaAtScHtJl55dSIsEKB4wMby5kyOsm6d0t9wdgQFOSk5vu9nn4uNBXCxB-qvg4UETHdzwPmTQUyzj36ii78gTUomNULEN94M7D5_xsm0VtsNXfvxMEhJNmXevofR58bztn1kkcXfPa1vFn9TGkicTIPKbcU8/p.jpeg"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">Kakao Map</span>
+          </div>
+
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <img
+                src="https://previews.dropbox.com/p/thumb/ABqgCpbGFPbZWYXRoUWTIXCB9X7a2ILyNFYXjQ91Kg23B2kqWyJiWxRhzrAkTKcnLd9Y7bcO5KWfz31BJlQv8waaXhNux9NyasSxoRYcZJktFn6xOcZLWLHD8XxFB98Tq56ALc-QTFhGEFmlLiPj3ATM6IX2qcXYCaI8uZKKIqm9AMa37qjg1FnXY2qvNcSSrVRgeoStkgvnJHxvpiO926cT9uvMElZxMS13fTDPQoQEDXnHQm96vKCGnETq2wHrRmNJDedsp4uitIiXf6XucRlbfwABqDH31X4rgwRT0rPCtmT-oF3PNGq4EiormUK55dmaX9BNQxzBJqvQgvJ1x_acZRYVislqepr4TT0hxEDPHjCtwEV0zx7JOlhR-thND5M/p.png"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">Kakao Bank</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">17</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="more.html">
+            <span class="nav__red-dot"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big 😭</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/27db4f284c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

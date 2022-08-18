@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Find - Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/98/98783.png" /> -->
+      </div>
+      <div class="status-bar__column">
+        <span>15:49</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <!-- <i class="fa-solid fa-battery-three-quarters fa-lg battery"></i> -->
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3103/3103520.png"
+          class="battery"
+        />
+        <!-- <i class="fa-solid fa-bolt-lightning"></i> -->
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/252/252851.png"
+          class="bolt"
+        />
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span class="screen-header__icons__icon">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </span>
+        <span class="screen-header__icons__icon">
+          <i class="fa-solid fa-gear fa-lg">
+            <span class="screen-header__icon__red-dot"></span>
+          </i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contatcs</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-id-card"></i><span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fa-solid fa-chevron-right"></i
+          ></span>
+        </div>
+
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img
+                src="https://i.pinimg.com/originals/42/1b/67/421b673c43a4fd7f04ca8950db613696.png"
+              />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://previews.dropbox.com/p/thumb/ABqc78ymFKz87LySWu9oyBW3M3-a_Btt5emonek5pFJwVLFjuA2kxGxj-748brH_S4_pAEb4S8jLksLVTBzC9mtoFfu-yJxIVlMR_UxKEaJjcJER_JTyczdG5ADfv7CGRZAIP3lGgxj-lx-krXME_hE4AsKPT_eWGXXP7Zdv49z8RTn5jgR2QV6y6YPOqDpCvaZwjfZASyVX2eBExCZywWOCspcGd_mzWRfZQia4u0fZDdoySFAsEdY4-9Zdk7JEQe0YP9rPQIUVMu4C5pDHlV3lii-2waynrke79zx3hmku0_Bm2u8n3K3QaEMDkkVJn3h4E8u1oXBbj4hUYDHg_4vUpGfKK-NWUlqczNLahyPh5CedLQ3YWgZoqAqZSmqOlHk/p.png"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i> <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">17</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="more.html">
+            <span class="nav__red-dot"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big 😭</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/27db4f284c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
