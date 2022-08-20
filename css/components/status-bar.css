@@ -16,6 +16,11 @@
   margin-right: 5px;
 }
 
+.status-bar__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
@@ -27,13 +32,13 @@
   align-items: center;
 }
 
-.battery {
+.battery,
+.bolt,
+.wifi {
   width: 20px;
   height: 20px;
-  margin: 0 7px;
 }
 
-.bolt {
-  width: 20px;
-  height: 20px;
+.battery {
+  margin: 0 6px;
 }
