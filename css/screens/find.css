@@ -9,6 +9,7 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .recommended-friends span {
@@ -18,6 +19,20 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 600;
+}
+
+.friend-add {
+  width: 25px;
+  height: 25px;
+  background-color: #dff9fb;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.user-component__avatar-krab {
+  background-color: #f6e58d;
+}
+.user-component__avatar-sheldon {
+  background-color: #cf6a87;
 }
 
 .open-chat__header {

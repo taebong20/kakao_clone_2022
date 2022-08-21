@@ -17,7 +17,7 @@
 }
 
 .friends-screen__channel,
-.friends-screen__friends {
+.friends-screen__friends-list {
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 10px;
@@ -37,7 +37,7 @@
   font-weight: 700;
 }
 
-.friends-list {
+.user-component__friend {
   margin-bottom: 18px;
 }
 
@@ -52,7 +52,9 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxODAxMjRfNDMg/MDAxNTE2NzgwMDg4NzU2.KXBgAci6JMysz3PgEigla3h9TX03BCF7NHzno5xfM5cg.ujfD94GQJTwkuDYQJcpreMyhjAXu5wO1aRzKqcyrEWgg.PNG.d_hye97/12.png?type=w800);
+  background-position: center;
+  background-size: cover;
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -66,5 +68,7 @@
 }
 
 #splash-screen span {
-  font-size: 20px;
+  font-size: 30px;
+  margin-top: 270px;
+  font-weight: 700;
 }
