@@ -22,17 +22,23 @@
 }
 
 .friend-add {
-  width: 25px;
-  height: 25px;
-  background-color: #dff9fb;
-  padding: 10px 15px;
-  border-radius: 15px;
+  width: 20px;
+  height: 18px;
+  border: 2px solid #273c75;
+  padding: 10px 13px;
+  border-radius: 13px;
 }
+
 .user-component__avatar-krab {
   background-color: #f6e58d;
 }
+
 .user-component__avatar-sheldon {
   background-color: #cf6a87;
+}
+
+.user-component__friend {
+  margin-bottom: 25px;
 }
 
 .open-chat__header {
