@@ -45,11 +45,13 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #7ed6df;
   cursor: pointer;
   padding: 20px 0;
   border-radius: 5px;
   margin-top: 15px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 #login-form a {
